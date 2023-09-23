@@ -48,7 +48,7 @@ class Record:
         phone = Phone(phone)
         for p in self.phones:
             if p.value == phone.value:
-                return p.value
+                return p
             
         
 
